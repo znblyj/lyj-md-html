@@ -68,6 +68,7 @@ export async function exportHTML(title: string = `untitled`) {
   const htmlStr = getHtmlContent()
   const stylesToAdd = await getStylesToAdd()
 
+  // 内容自适应手机屏幕
   const fullHtml = `<!DOCTYPE html>
 <html>
 <head>
