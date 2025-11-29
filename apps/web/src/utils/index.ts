@@ -78,7 +78,7 @@ export async function exportHTML(title: string = `untitled`) {
   ${stylesToAdd}
 </head>
 <body>
-  <div style="max-width: 750px; width: 100%; margin: auto; padding: 0 15px; box-sizing: border-box">
+  <div style="max-width: 750px; width: 100%; margin: auto; padding: 0 0; box-sizing: border-box">
     ${htmlStr}
   </div>
 </body>
